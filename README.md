@@ -255,14 +255,19 @@ Este projeto foi desenvolvido como demonstração de habilidades em:
 
 Este projeto está licenciado sob a [MIT License](LICENSE) - veja o arquivo de licença para mais detalhes.
 
-## 👨‍💻 Autor
+## 👤 Autor
+
+<div align="center">
 
 **Anthony Coelho**
-- GitHub: [@anthonycdp](https://github.com/anthonycdp)
-- LinkedIn: [Anthony Coelho](https://www.linkedin.com/in/anthonycoelhoqae/)
-- Email: anthonycoelho.dp@hotmail.com
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anthonycdp)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthonycoelhoqae/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anthonycoelho.dp@hotmail.com)
 
 *QA Engineer especializado em testes de performance e automação*
+
+</div>
 
 ## 🤝 Contribuições
 
