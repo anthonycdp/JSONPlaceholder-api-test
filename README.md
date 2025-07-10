@@ -259,7 +259,10 @@ Este projeto está licenciado sob a [MIT License](LICENSE) - veja o arquivo de l
 
 **Anthony Coelho**
 - GitHub: [@anthonycdp](https://github.com/anthonycdp)
+- LinkedIn: [Anthony Coelho](https://www.linkedin.com/in/anthonycoelhoqae/)
 - Email: anthonycoelho.dp@hotmail.com
+
+*QA Engineer especializado em testes de performance e automação*
 
 ## 🤝 Contribuições
 
