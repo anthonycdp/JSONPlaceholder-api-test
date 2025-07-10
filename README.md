@@ -253,7 +253,7 @@ Este projeto foi desenvolvido como demonstração de habilidades em:
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE) - veja o arquivo de licença para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👤 Autor
 
@@ -269,17 +269,14 @@ Este projeto está licenciado sob a [MIT License](LICENSE) - veja o arquivo de l
 
 </div>
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-- Abrir issues para reportar bugs ou sugerir melhorias
-- Criar pull requests para novas funcionalidades
-- Melhorar a documentação
-
-## ⭐ Apoie o Projeto
-
-Se este projeto foi útil para você, considere dar uma estrela! ⭐
-
 ---
 
-**Desenvolvido com foco em qualidade, organização e boas práticas de testes de API** 🚀
+<div align="center">
+
+### ⭐ Se este projeto foi útil para você, considere dar uma estrela!
+
+### 🤝 Contribuições são bem-vindas!
+
+**Versão**: 1.0.0
+
+</div>
