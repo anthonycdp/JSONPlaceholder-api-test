@@ -1,0 +1,88 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+build/
+dist/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Cache files
+.cache/
+.parcel-cache/
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+*.lnk
+desktop.ini
+
+# Linux
+*~
+
+# Claude AI files
+.claude/
+
+# Postman generated files
+*.postman_globals
+*.postman_collection_backup
+*.postman_environment_backup
+
+# Screenshots (will be added manually)
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.gif
+!screenshots/.gitkeep
