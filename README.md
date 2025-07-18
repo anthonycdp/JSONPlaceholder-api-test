@@ -1,37 +1,37 @@
 <div align="center">
 
-# 🧪 API Test JSONPlaceholder
+# 🧪 JSONPlaceholder API Tests
 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 ![API Testing](https://img.shields.io/badge/API%20Testing-4CAF50?style=for-the-badge&logo=checkmarx&logoColor=white)
 
-*Coleção de testes automatizados para validação de API REST utilizando JSONPlaceholder*
+*Automated test collection for REST API validation using JSONPlaceholder*
 
-[🚀 Começar](#-como-usar) • [📚 Documentação](#-principais-testes-implementados) • [🔧 Instalação](#-como-usar) • [📄 Licença](#-licença)
+[Get Started](#-installation) • [Documentation](#-main-tests-implemented) • [Usage](#-how-to-use) • [License](#-license)
 
 </div>
 
 ---
 
-## 📋 Visão Geral
+## 📋 Overview
 
-Este projeto demonstra domínio em **validação de contratos de API**, **organização de testes automatizados** e **boas práticas** para versionamento e colaboração via GitHub. A coleção de testes foi desenvolvida para a API pública **JSONPlaceholder**, validando todos os principais endpoints com scripts de teste abrangentes.
+This project demonstrates expertise in **API contract validation**, **automated test organization**, and **best practices** for versioning and collaboration via GitHub. The test collection was developed for the **JSONPlaceholder** public API, validating all main endpoints with comprehensive test scripts.
 
-## 🎯 Objetivos
+## 🎯 Objectives
 
-- Demonstrar proficiência em testes de API usando Postman
-- Implementar validação rigorosa de contratos (Schema Validation)
-- Organizar testes de forma estruturada e reutilizável
-- Aplicar boas práticas de automação de testes
-- Documentar adequadamente os testes e processos
+- Demonstrate proficiency in API testing using Postman
+- Implement rigorous contract validation (Schema Validation)
+- Organize tests in a structured and reusable way
+- Apply test automation best practices
+- Properly document tests and processes
 
-## 🌐 API Utilizada
+## 🌐 API Used
 
 **JSONPlaceholder**: https://jsonplaceholder.typicode.com/
 
-Uma API REST gratuita para testes e prototipagem, que simula recursos como:
+A free REST API for testing and prototyping, which simulates resources such as:
 - Posts (100 items)
 - Comments (500 items)
 - Users (10 items)
@@ -39,7 +39,7 @@ Uma API REST gratuita para testes e prototipagem, que simula recursos como:
 - Photos (5000 items)
 - Todos (200 items)
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 api-test-JSONPlaceholder/
@@ -55,97 +55,97 @@ api-test-JSONPlaceholder/
 └── README.md
 ```
 
-## 🚀 Como Usar
+## 🚀 How to Use
 
-### 1. Importar no Postman
+### 1. Import into Postman
 
-1. **Baixe os arquivos**:
+1. **Download the files**:
    - `jsonplaceholder-tests.postman_collection.json`
    - `jsonplaceholder-environment.postman_environment.json`
 
-2. **Importe no Postman**:
-   - Abra o Postman
-   - Clique em "Import"
-   - Selecione os arquivos baixados
-   - Confirme a importação
+2. **Import into Postman**:
+   - Open Postman
+   - Click "Import"
+   - Select the downloaded files
+   - Confirm the import
 
-3. **Configure o ambiente**:
-   - Selecione o ambiente "JSONPlaceholder Environment"
-   - Verifique se as variáveis estão configuradas corretamente
+3. **Configure the environment**:
+   - Select the "JSONPlaceholder Environment" environment
+   - Verify that the variables are configured correctly
 
-### 2. Executar os Testes
+### 2. Run the Tests
 
-#### Execução Individual
-- Navegue pelas pastas organizadas por recurso
-- Execute requests individuais
-- Visualize os resultados dos testes na aba "Test Results"
+#### Individual Execution
+- Navigate through the folders organized by resource
+- Execute individual requests
+- View test results in the "Test Results" tab
 
-#### Execução em Lote
-- Clique no nome da coleção "JSONPlaceholder Tests"
-- Clique em "Run Collection"
-- Configure as opções de execução (delay, iterações)
-- Execute e visualize o relatório completo
+#### Batch Execution
+- Click on the collection name "JSONPlaceholder Tests"
+- Click "Run Collection"
+- Configure execution options (delay, iterations)
+- Execute and view the complete report
 
-## 🧪 Principais Testes Implementados
+## 🧪 Main Tests Implemented
 
 ### 📝 Posts
-- **GET All Posts**: Valida estrutura, quantidade e campos obrigatórios
-- **GET Single Post**: Verifica dados específicos e integridade
-- **POST Create Post**: Testa criação com validação de resposta
-- **PUT Update Post**: Valida atualização completa
-- **DELETE Post**: Confirma remoção bem-sucedida
+- **GET All Posts**: Validates structure, quantity, and required fields
+- **GET Single Post**: Verifies specific data and integrity
+- **POST Create Post**: Tests creation with response validation
+- **PUT Update Post**: Validates complete update
+- **DELETE Post**: Confirms successful removal
 
 ### 💬 Comments
-- **GET All Comments**: Valida estrutura e formato de email
-- **GET Comments by Post**: Testa relacionamento post-comentário
+- **GET All Comments**: Validates structure and email format
+- **GET Comments by Post**: Tests post-comment relationship
 
 ### 👥 Users
-- **GET All Users**: Valida estrutura complexa (endereço, empresa)
-- **GET Single User**: Verifica dados pessoais completos
-- **GET User Posts**: Testa relacionamento usuário-posts
+- **GET All Users**: Validates complex structure (address, company)
+- **GET Single User**: Verifies complete personal data
+- **GET User Posts**: Tests user-posts relationship
 
 ### 🖼️ Albums & Photos
-- **GET All Albums**: Valida estrutura básica
-- **GET Album Photos**: Testa URLs e relacionamentos
+- **GET All Albums**: Validates basic structure
+- **GET Album Photos**: Tests URLs and relationships
 
 ### ✅ Todos
-- **GET All Todos**: Valida estrutura e tipos de dados
-- **GET User Todos**: Testa relacionamento usuário-tarefas
+- **GET All Todos**: Validates structure and data types
+- **GET User Todos**: Tests user-tasks relationship
 
 ### ❌ Error Handling
-- **404 Errors**: Testa recursos inexistentes
-- **Invalid Endpoints**: Valida tratamento de erros
+- **404 Errors**: Tests non-existent resources
+- **Invalid Endpoints**: Validates error handling
 
-## 🔍 Validações Implementadas
+## 🔍 Implemented Validations
 
-### ✅ Validações Básicas
-- **Status Codes**: 200, 201, 404 conforme esperado
-- **Response Time**: Máximo de 1000ms para operações
-- **Content-Type**: Verificação de headers JSON
-- **Campos Obrigatórios**: Presença de propriedades essenciais
+### ✅ Basic Validations
+- **Status Codes**: 200, 201, 404 as expected
+- **Response Time**: Maximum of 1000ms for operations
+- **Content-Type**: JSON headers verification
+- **Required Fields**: Presence of essential properties
 
-### 🔧 Validações Avançadas
-- **Schema Validation**: Usando biblioteca `tv4` integrada
-- **Data Types**: Validação de tipos (string, number, boolean)
-- **Format Validation**: Emails, URLs, estruturas complexas
-- **Relationship Validation**: IDs de relacionamento corretos
+### 🔧 Advanced Validations
+- **Schema Validation**: Using integrated `tv4` library
+- **Data Types**: Validation of types (string, number, boolean)
+- **Format Validation**: Emails, URLs, complex structures
+- **Relationship Validation**: Correct relationship IDs
 
-### 📊 Validações de Negócio
-- **Array Lengths**: Quantidade esperada de itens
-- **Data Integrity**: Consistência entre recursos relacionados
-- **Field Constraints**: Valores mínimos, formatos específicos
+### 📊 Business Validations
+- **Array Lengths**: Expected number of items
+- **Data Integrity**: Consistency between related resources
+- **Field Constraints**: Minimum values, specific formats
 
-## 🎯 Validação de Contratos (Schema Validation)
+## 🎯 Contract Validation (Schema Validation)
 
-### Implementação
-A validação de schema é implementada diretamente nos scripts de teste do Postman usando a biblioteca `tv4` (Tiny Validator for JSON Schema v4).
+### Implementation
+Schema validation is implemented directly in Postman test scripts using the `tv4` library (Tiny Validator for JSON Schema v4).
 
-### Schemas Definidos
-- **Post Schema**: Valida estrutura de posts
-- **User Schema**: Valida dados completos do usuário
-- **Comment Schema**: Valida estrutura de comentários
+### Defined Schemas
+- **Post Schema**: Validates post structure
+- **User Schema**: Validates complete user data
+- **Comment Schema**: Validates comment structure
 
-### Exemplo de Uso
+### Usage Example
 ```javascript
 const schema = {
     \"type\": \"object\",
@@ -164,98 +164,98 @@ pm.test(\"Schema is valid\", function () {
 });
 ```
 
-## 📋 Variáveis de Ambiente
+## 📋 Environment Variables
 
-| Variável | Valor | Descrição |
-|----------|-------|-----------|
-| `base_url` | `https://jsonplaceholder.typicode.com` | URL base da API |
-| `default_user_id` | `1` | ID padrão do usuário |
-| `default_post_id` | `1` | ID padrão do post |
-| `default_album_id` | `1` | ID padrão do álbum |
-| `test_timeout` | `1000` | Timeout para testes (ms) |
+| Variable | Value | Description |
+|----------|-------|-------------|
+| `base_url` | `https://jsonplaceholder.typicode.com` | API base URL |
+| `default_user_id` | `1` | Default user ID |
+| `default_post_id` | `1` | Default post ID |
+| `default_album_id` | `1` | Default album ID |
+| `test_timeout` | `1000` | Test timeout (ms) |
 
-## 📚 Documentação Embutida
+## 📚 Embedded Documentation
 
-A coleção inclui documentação embutida no Postman com:
-- **Descrição de cada pasta**: Objetivo e contexto dos testes
-- **Descrição de requests**: Detalhes sobre cada endpoint
-- **Exemplos de uso**: Como executar e interpretar resultados
-- **Variáveis documentadas**: Explicação de todas as variáveis utilizadas
+The collection includes embedded documentation in Postman with:
+- **Folder descriptions**: Purpose and context of tests
+- **Request descriptions**: Details about each endpoint
+- **Usage examples**: How to execute and interpret results
+- **Documented variables**: Explanation of all variables used
 
-### Acessando a Documentação
-1. No Postman, clique na coleção "JSONPlaceholder Tests"
-2. Clique na aba "Documentation"
-3. Navegue pela documentação estruturada
+### Accessing Documentation
+1. In Postman, click on the "JSONPlaceholder Tests" collection
+2. Click on the "Documentation" tab
+3. Navigate through the structured documentation
 
-## 🏆 Principais Destaques
+## 🏆 Key Highlights
 
-### ✨ Organização
-- **Estrutura hierárquica**: Pastas organizadas por recurso
-- **Nomenclatura clara**: Nomes descritivos e padronizados
-- **Separação de responsabilidades**: Cada pasta com propósito específico
+### ✨ Organization
+- **Hierarchical structure**: Folders organized by resource
+- **Clear naming**: Descriptive and standardized names
+- **Separation of concerns**: Each folder with specific purpose
 
-### 🔬 Qualidade dos Testes
-- **Cobertura abrangente**: Todos os endpoints principais cobertos
-- **Validações múltiplas**: Múltiplas verificações por request
-- **Casos de erro**: Testes para cenários de falha
+### 🔬 Test Quality
+- **Comprehensive coverage**: All main endpoints covered
+- **Multiple validations**: Multiple checks per request
+- **Error cases**: Tests for failure scenarios
 
-### 🔧 Automação
-- **Scripts reutilizáveis**: Lógica de teste consistente
-- **Variáveis dinâmicas**: Dados compartilhados entre testes
-- **Execução em lote**: Capacidade de executar toda a suíte
+### 🔧 Automation
+- **Reusable scripts**: Consistent test logic
+- **Dynamic variables**: Data shared between tests
+- **Batch execution**: Ability to run the entire suite
 
-### 📈 Relatórios
-- **Resultados detalhados**: Informações completas sobre cada teste
-- **Métricas de performance**: Tempo de resposta e estatísticas
-- **Exportação de dados**: Resultados exportáveis para análise
+### 📈 Reports
+- **Detailed results**: Complete information about each test
+- **Performance metrics**: Response time and statistics
+- **Data export**: Exportable results for analysis
 
-## 🛠️ Tecnologias e Ferramentas
+## 🛠️ Technologies and Tools
 
-- **Postman**: Ferramenta principal para testes de API
-- **tv4**: Biblioteca para validação de schema JSON
-- **JSONPlaceholder**: API pública para testes
-- **JSON Schema**: Padrão para validação de contratos
+- **Postman**: Main tool for API testing
+- **tv4**: Library for JSON schema validation
+- **JSONPlaceholder**: Public API for testing
+- **JSON Schema**: Standard for contract validation
 
-## 📊 Estatísticas do Projeto
+## 📊 Project Statistics
 
-- **Total de Requests**: 20+ endpoints testados
-- **Validações por Request**: 5-10 testes por endpoint
-- **Cobertura de Recursos**: 6 recursos diferentes (Posts, Comments, Users, Albums, Photos, Todos)
-- **Tipos de Operação**: GET, POST, PUT, DELETE
-- **Cenários de Erro**: Validação de casos 404 e endpoints inválidos
+- **Total Requests**: 20+ tested endpoints
+- **Validations per Request**: 5-10 tests per endpoint
+- **Resource Coverage**: 6 different resources (Posts, Comments, Users, Albums, Photos, Todos)
+- **Operation Types**: GET, POST, PUT, DELETE
+- **Error Scenarios**: Validation of 404 cases and invalid endpoints
 
-## 🎓 Aprendizados e Boas Práticas
+## 🎓 Learnings and Best Practices
 
-### ✅ Implementadas
-- **Organização estruturada** de testes por recurso
-- **Validação rigorosa** de contratos de API
-- **Automação completa** com scripts JavaScript
-- **Documentação integrada** no próprio Postman
-- **Reutilização de código** com variáveis de ambiente
-- **Tratamento de cenários de erro**
+### ✅ Implemented
+- **Structured organization** of tests by resource
+- **Rigorous validation** of API contracts
+- **Complete automation** with JavaScript scripts
+- **Integrated documentation** within Postman itself
+- **Code reusability** with environment variables
+- **Error scenario handling**
 
-### 🔄 Processo de Desenvolvimento
-1. **Análise da API**: Estudo da documentação JSONPlaceholder
-2. **Planejamento**: Definição da estrutura de testes
-3. **Implementação**: Criação dos requests e scripts
-4. **Validação**: Teste e refinamento das validações
-5. **Documentação**: Criação da documentação completa
-6. **Versionamento**: Organização para colaboração
+### 🔄 Development Process
+1. **API Analysis**: Study of JSONPlaceholder documentation
+2. **Planning**: Definition of test structure
+3. **Implementation**: Creation of requests and scripts
+4. **Validation**: Testing and refinement of validations
+5. **Documentation**: Creation of complete documentation
+6. **Versioning**: Organization for collaboration
 
-## 🤝 Contribuição
+## 🤝 Contribution
 
-Este projeto foi desenvolvido como demonstração de habilidades em:
-- **Testes de API automatizados**
-- **Validação de contratos**
-- **Organização de projetos de teste**
-- **Documentação técnica**
-- **Boas práticas de desenvolvimento**
+This project was developed as a demonstration of skills in:
+- **Automated API testing**
+- **Contract validation**
+- **Test project organization**
+- **Technical documentation**
+- **Development best practices**
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
-## 👤 Autor
+## 👤 Author
 
 <div align="center">
 
@@ -265,7 +265,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthonycoelhoqae/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anthonycoelho.dp@hotmail.com)
 
-*QA Engineer especializado em testes de performance e automação*
+*QA Engineer specialized in performance testing and automation*
 
 </div>
 
@@ -273,10 +273,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 <div align="center">
 
-### ⭐ Se este projeto foi útil para você, considere dar uma estrela!
+### ⭐ If this project was helpful to you, consider giving it a star!
 
-### 🤝 Contribuições são bem-vindas!
+### 🤝 Contributions are welcome!
 
-**Versão**: 1.0.0
+**Version**: 1.0.0
 
 </div>
